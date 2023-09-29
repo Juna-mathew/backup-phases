@@ -1,0 +1,42 @@
+{
+  "name": "Backup",
+  "version": "1.0.1",
+  "description": "Backup UI",
+  "author": "UI Team",
+  "license": "MIT",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "gulp",
+    "dev": "gulp serve",
+    "prod": "cross-env NODE_ENV=prod gulp"
+  },
+  "devDependencies": {
+    "bootstrap": "5.0.0-beta3",
+    "browser-sync": "^2.26.14",
+    "cross-env": "^7.0.2",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-html-partial": "^1.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-js-import": "^1.0.6",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-sprite-generator": "^0.2.3",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "cssnano": "^5.0.5",
+    "gulp-postcss": "^9.0.0",
+    "gulp.spritesmith": "^6.12.1",
+    "postcss": "^8.3.0"
+  }
+}

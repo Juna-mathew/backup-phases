@@ -1,0 +1,77 @@
+.search-wrap{
+    display: flex;
+    width: 100%;
+    background: #FAFAFA;
+    .seach__input-wrap{
+        width: 100%;
+    }
+    .search-input{
+        display: flex;
+        align-items: center;
+    }
+    .search-icon{
+        padding: 18px 18px 18px 22px;
+    }
+    input.searchinput{
+        width: 100%;
+        padding: 18px 18px 18px 0;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        outline: 0;
+        border: 0;
+        background: #FAFAFA;
+        
+    }
+    .searchButton{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        text-transform: uppercase;
+        color: #fff;
+        background: #009A62;
+        padding: 18px 70px;
+        border: 0;
+        height: 60px;
+        transition: all 0.4s ease;
+        @media (max-width: 764px){
+            padding: 18px 20px; 
+        }
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    
+}
+.search-clues{
+    @media (min-width: 764px){
+        width: calc(100% - 207px);
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        .clue-items{
+            display: flex;
+            width: 100%;
+            align-items: center;
+            padding: 20px 40px;
+        }
+        .clue-text{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding-left: 30px;
+            p{
+                color: #232A30;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+            }
+        }
+    }
+}
